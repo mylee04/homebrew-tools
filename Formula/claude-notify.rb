@@ -1,8 +1,8 @@
 class ClaudeNotify < Formula
   desc "Cross-platform desktop notifications for Claude Code"
   homepage "https://github.com/mylee04/claude-notify"
-  url "https://github.com/mylee04/claude-notify/archive/v1.0.0.tar.gz"
-  sha256 "f48e4ac02e879f5e8af88a0770c851109f349c0cdf5f5e1bb75ca672e2abea69"
+  url "https://github.com/mylee04/claude-notify/archive/v1.1.0.tar.gz"
+  sha256 "4dd733b2321774631a06e32d54de2b2ee03c9194412d2f5076863b488f5fe9be"
   license "MIT"
   
   depends_on "terminal-notifier" => :recommended
@@ -38,11 +38,14 @@ class ClaudeNotify < Formula
     ohai "Quick start:"
     ohai "  claude-notify setup    # Run initial setup"
     ohai "  cn on                  # Enable notifications"
+    ohai "  cn voice on            # Enable voice notifications (NEW!)"
     ohai ""
     ohai "Available commands:"
     ohai "  claude-notify (full commands)"
     ohai "  cn (global shortcuts)"
     ohai "  cnp (project shortcuts)"
+    ohai ""
+    ohai "New in v1.1.0: Voice notifications & project-specific voices!"
     ohai ""
     ohai "For more info: https://github.com/mylee04/claude-notify"
   end
