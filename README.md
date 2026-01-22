@@ -10,15 +10,15 @@ brew tap mylee04/tools
 
 ## Available Formulas
 
-### claude-notify
+### code-notify
 
-Cross-platform desktop notifications for Claude Code.
+Cross-platform desktop notifications for AI coding tools (Claude Code, Codex, Gemini CLI).
 
 ```bash
-brew install claude-notify
+brew install code-notify
 ```
 
-For more information, see [claude-notify repository](https://github.com/mylee04/claude-notify).
+For more information, see [code-notify repository](https://github.com/mylee04/code-notify).
 
 ## Adding to this tap
 
