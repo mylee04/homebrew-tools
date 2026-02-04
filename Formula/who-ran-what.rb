@@ -1,8 +1,8 @@
 class WhoRanWhat < Formula
-  desc "Track your AI agent and skill usage - analytics for Claude Code"
+  desc "Track your AI agent and skill usage - analytics for Claude, Gemini, Codex, OpenCode"
   homepage "https://github.com/mylee04/who-ran-what"
-  url "https://github.com/mylee04/who-ran-what/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "eae4037bd3b048ee3f36d542c51edaf8c78120eedd7152ab27dc3ab88c321ad4"
+  url "https://github.com/mylee04/who-ran-what/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "de57ad5334975506320cd9b325ea1b96078cea73f16948555b7537ea6b0aaaa7"
   license "MIT"
   head "https://github.com/mylee04/who-ran-what.git", branch: "main"
 
