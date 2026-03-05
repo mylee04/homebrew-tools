@@ -18,6 +18,14 @@ Cross-platform desktop notifications for AI coding tools (Claude Code, Codex, Ge
 brew install code-notify
 ```
 
+If you already installed it and want the latest release:
+
+```bash
+brew update
+brew upgrade code-notify
+code-notify version
+```
+
 For more information, see [code-notify repository](https://github.com/mylee04/code-notify).
 
 ## Adding to this tap
