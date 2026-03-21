@@ -1,8 +1,8 @@
 class CodeNotify < Formula
   desc "Cross-platform desktop notifications for AI coding tools"
   homepage "https://github.com/mylee04/code-notify"
-  url "https://github.com/mylee04/code-notify/archive/v1.6.2.tar.gz"
-  sha256 "24fd3cfe3b5de22989c8c30324df4c8652c22d99fea8efab06d9546d7930ba16"
+  url "https://github.com/mylee04/code-notify/archive/refs/tags/v1.6.3.tar.gz"
+  sha256 "f1107cff23ce0064d843bb2c175826c9afeab61f7112d252a67a958b2826dac5"
   license "MIT"
 
   depends_on "terminal-notifier" => :recommended
@@ -36,7 +36,7 @@ class CodeNotify < Formula
   end
 
   test do
-    system "#{bin}/code-notify", "version"
-    system "#{bin}/cn", "version"
+    system bin/"code-notify", "version"
+    system bin/"cn", "version"
   end
 end
