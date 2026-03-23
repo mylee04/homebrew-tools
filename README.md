@@ -14,11 +14,11 @@ brew tap mylee04/tools
 
 Cross-platform desktop notifications for AI coding tools (Claude Code, Codex, Gemini CLI).
 
-Latest release: `v1.6.4`
+Latest release: `v1.6.5`
 
-- Adds `cn update` and `cn update check` so existing installs can self-report the right update path
-- Fixes duplicate sound playback on macOS and Windows notifications
-- Includes the Windows `update check` output fix used by the installer and CI
+- Adds real latest-release checks to `cn update check` for script and Windows installs
+- Makes `cn update` a true no-op when the current install is already up to date
+- Fixes Windows `cn version` output so scripts and CI can capture it cleanly
 
 ```bash
 brew install code-notify
