@@ -14,11 +14,11 @@ brew tap mylee04/tools
 
 Cross-platform desktop notifications for AI coding tools (Claude Code, Codex, Gemini CLI).
 
-Latest release: `v1.6.6`
+Latest release: `v1.6.7`
 
-- Warns during `cnp on` when Claude project trust has not been accepted yet
-- Keeps trust handling explicit instead of automatically changing `~/.claude.json`
-- Adds the same project-trust warning flow to the Windows installer path
+- Fixes `cn -v` on Windows so it shows the version cleanly without verbose module reload noise
+- Cleans up the “already current” output for `cn update` and `cn update check`
+- Adds explicit `all` aliases for `cn on`, `cn off`, and `cn status`
 
 ```bash
 brew install code-notify
