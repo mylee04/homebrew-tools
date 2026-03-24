@@ -1,8 +1,8 @@
 class CodeNotify < Formula
   desc "Cross-platform desktop notifications for AI coding tools"
   homepage "https://github.com/mylee04/code-notify"
-  url "https://github.com/mylee04/code-notify/archive/refs/tags/v1.6.8.tar.gz"
-  sha256 "4949fed96da04008fe3f895cdda77060ec88426ff053b531287338a2bd1829d0"
+  url "https://github.com/mylee04/code-notify/archive/refs/tags/v1.6.9.tar.gz"
+  sha256 "1c2a5ee3c85d526e076830e5a5f3537ba3dfdf688ff56fb980e5caef7ee421ba"
   license "MIT"
 
   depends_on "terminal-notifier" => :recommended
@@ -25,6 +25,7 @@ class CodeNotify < Formula
   end
 
   def post_install
+    quiet_system bin/"code-notify", "repair-hooks", "--quiet"
     ohai "Code-Notify installed successfully!"
     ohai ""
     ohai "Quick start:"
