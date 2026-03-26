@@ -1,8 +1,8 @@
 class CodeNotify < Formula
   desc "Cross-platform desktop notifications for AI coding tools"
   homepage "https://github.com/mylee04/code-notify"
-  url "https://github.com/mylee04/code-notify/archive/refs/tags/v1.6.11.tar.gz"
-  sha256 "aee09f35b2583e360d47e58873d7efe63a4139456b99f395ec50b6378487db47"
+  url "https://github.com/mylee04/code-notify/archive/refs/tags/v1.6.12.tar.gz"
+  sha256 "aee79d53276a085007b0d96d491dde43e0ec575afea098d2652bb622856fefa4"
   license "MIT"
 
   depends_on "terminal-notifier" => :recommended
